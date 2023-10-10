@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jane Doe - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Jer'Maine Brown
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          jbrown@jeemail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +13456764598
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://miro.medium.com/max/1400/1*qdAW1TjCN57h1lbuuzvchg.gif" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Jer'Maine Brown! <img src="data:image/png;base64,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" width="60px"/>
+          </h1>
+          <p>
+            I am an entry level full stack developer with no years of experience. I am currently training to start a career in software development..
+            I have worked in the sales field previously. 
+            I am an avid learner, results driven and a resourceful person. I am also a great problem-solver.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>3 years experience</p>
+        </div>  
+
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/IBM_Cloud_logo.png"/>
+            <h7>Cloud</h7>
+            <p>1 year experience</p>
+          </div>
+
+          <div class="skill">
+            <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/aws-2749233-2284623.png?f=webp&w=512"/>
+            <h7>AWS</h7>
+            <p>2 years experience</p>
+          </div>
+
+          <div class="skill">
+            <img src="https://tublitzed.com/img/portfolio/node/browser/full/1.jpg"/>
+            <h6>node.js</h6>
+            <p>1 year experience</p>
+          </div>  
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Application</h3>
+            <ul>
+              <li>Created a secure and new app for a coaching platform with a comapny needing a chat Assistant</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Intern</h3>
+            <ul>
+              <li>Helped develop and deploy code for AWS</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Coaching Website</h3>
+            <ul>
+              <li>Created and styled multi-page website for a life coach with a brand new business.
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Jer'Maine leads the way when it comes to learning the basics of cloud infrastructure. She has also taken the time to train new employess on how to monitor cloud data in an effective way. This year, for instance, she led three trainings for the Cloud department for Google.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Working with Jer'Maine has been an awesome experience. 
+          Her highly knowledgable personality and initiative to always go the extra step to make sure everything is right is admirable.
+          I have confidence with future projects that will need her expertise. I would love to work with her again one day.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I had worked along with Jer'Maine at Amazon. We were specializing in Web development. 
+          She is committed to her work and is always willing to share her in depth knowledge about the domains. 
+          Her presence will be an asset for any organization! 
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+       </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thanks for leaving a recommendation!</h3>
+      <button onclick="showPopup(true)">Ok</button>
+    </div>
+  </body>
+</html>
